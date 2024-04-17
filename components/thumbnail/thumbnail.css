@@ -35,7 +35,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: rgba(4, 210, 200, 0.6);
+	background-color: rgb(226 121 28 / 60%);
 }
 
 .thumbnail-gallery .thumbnail-media-icon {

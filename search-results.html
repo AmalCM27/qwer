@@ -18,82 +18,101 @@
     <div class="page">
       <!--RD Navbar-->
       <header class="section rd-navbar-wrap" data-preset='{"title":"Navbar Default","category":"header","reload":true,"id":"navbar-default"}'>
-        <nav class="rd-navbar" data-rd-navbar='{"responsive":{"1200":{"stickUpOffset":"50px"}}}'>
-          <div class="navbar-container">
-            <div class="navbar-cell">
-              <div class="navbar-panel">
-                <button class="navbar-switch novi-icon custom-font-menu" data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","isolate":"[data-multi-switch]"}'></button>
-                <div class="navbar-logo"><a class="navbar-logo-link" href="index.html"><img class="navbar-logo-inverse" src="images/logo-inverse-396x100.png" alt="Teachzy" width="198" height="50"/></a></div>
-              </div>
+        <nav class="rd-navbar"
+        data-rd-navbar="{&quot;responsive&quot;:{&quot;1200&quot;:{&quot;stickUpOffset&quot;:&quot;50px&quot;}}}"
+        style="background-color:#F49430; height: 100px;">
+        <div class="navbar-container">
+          <div class="navbar-cell">
+            <div class="navbar-panel">
+              <button class="navbar-switch novi-icon custom-font-menu"
+                data-multi-switch="{&quot;targets&quot;:&quot;.rd-navbar&quot;,&quot;scope&quot;:&quot;.rd-navbar&quot;,&quot;isolate&quot;:&quot;[data-multi-switch]&quot;}"></button>
+              <div class="navbar-logo"><a class="navbar-logo-link" href="index.html"><img class="navbar-logo-inverse"
+                    src=".//logo/emb.png" alt="Teachzy" width="200" height="50"  style="margin-top: 15px ;"></a></div>
             </div>
-            <div class="navbar-spacer"></div>
-            <div class="navbar-cell navbar-sidebar">
-              <ul class="navbar-navigation rd-navbar-nav">
-                <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link" href="index.html">Home</a>
-                </li>
-                <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link" href="academics.html">Academics</a>
-                </li>
-                <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link" href="history.html">History</a>
-                </li>
-                <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link" href="tutors.html">Tutors</a>
-                  <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
-                    <li class="navbar-navigation-back">
-                      <button class="navbar-navigation-back-btn">Back</button>
-                    </li>
-                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="team-member.html">Team member</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link" href="blog.html">Blog</a>
-                  <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
-                    <li class="navbar-navigation-back">
-                      <button class="navbar-navigation-back-btn">Back</button>
-                    </li>
-                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="single-post.html">Single post</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="navbar-navigation-root-item active"><a class="navbar-navigation-root-link" href="search-results.html#">Pages</a>
-                  <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
-                    <li class="navbar-navigation-back">
-                      <button class="navbar-navigation-back-btn">Back</button>
-                    </li>
-                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="gallery.html">Gallery</a>
-                    </li>
-                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="404.html">404</a>
-                    </li>
-                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="coming-soon.html">Coming soon</a>
-                    </li>
-                    <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="privacy-policy.html">Privacy policy</a>
-                    </li>
-                    <li class="navbar-navigation-dropdown-item active"><a class="navbar-navigation-dropdown-link" href="search-results.html">Search results</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link" href="contact-us.html">Contact us</a>
-                </li>
-              </ul>
-            </div>
-            <div class="navbar-spacer"></div>
-            <div class="navbar-cell">
-              <div class="navbar-subpanel">
-                <div class="navbar-subpanel-item">
-                  <div class="navbar-search">
-                    <div class="navbar-search-container">
-                      <form class="navbar-search-form" action="search-results.html" method="GET" data-rd-search='{"output":".navbar-search-results","mode":"live","liveResults":3,"template":"<h5 class=\"search-title\"><a target=\"_top\" href=\"#{href}\" class=\"search-link\">#{title}</a></h5><p>...#{token}...</p>"}'>
-                        <input class="navbar-search-input" type="text" placeholder="Enter search terms..." autocomplete="off" name="s"/>
-                        <button class="navbar-search-btn custom-font-search novi-icon"></button>
-                        <button class="navbar-search-close search-switch custom-font-close novi-icon" type="button" data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","class":"navbar-search-active","isolate":"[data-multi-switch]:not(.search-switch)"}'></button>
-                      </form>
-                    </div>
+          </div>
+          <div class="navbar-spacer"></div>
+          <div class="navbar-cell navbar-sidebar">
+            <ul class="navbar-navigation rd-navbar-nav">
+              <li class="navbar-navigation-root-item active"><a class="navbar-navigation-root-link"
+                  href="index.html">Home</a>
+              </li>
+              <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link"
+                  href="academics.html">Academics</a>
+              </li>
+              <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link"
+                  href="history.html">History</a>
+              </li>
+              <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link"
+                  href="tutors.html">Tutors</a>
+                <ul class="navbar-navigation-dropdown rd-navbar-dropdown" style="background-color: #FAC48B;" > 
+                  <li class="navbar-navigation-back" >
+                    <button class="navbar-navigation-back-btn">Back</button>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item" ><a class="navbar-navigation-dropdown-link"
+                      href="team-member.html"    >Team member</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link"
+                  href="blog.html">Blog</a>
+                <ul class="navbar-navigation-dropdown rd-navbar-dropdown" style="background-color: #FAC48B;">
+                  <li class="navbar-navigation-back">
+                    <button class="navbar-navigation-back-btn">Back</button>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
+                      href="single-post.html">Single post</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link"
+                  href="#">Pages</a>
+                <ul class="navbar-navigation-dropdown rd-navbar-dropdown" style="background-color: #FAC48B;">
+                  <li class="navbar-navigation-back">
+                    <button class="navbar-navigation-back-btn">Back</button>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
+                      href="gallery.html">Gallery</a>
+                  </li>
+                  
+                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
+                      href="coming-soon.html">Coming soon</a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
+                      href="privacy-policy.html">Privacy policy</a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link"
+                      href="search-results.html">Search results</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link"
+                  href="contact-us.html">Contact us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-spacer"></div>
+          <div class="navbar-cell">
+            <div class="navbar-subpanel">
+              <div class="navbar-subpanel-item">
+                <div class="navbar-search">
+                  <div class="navbar-search-container">
+                    <form class="navbar-search-form" action="search-results.html" method="GET"
+                      data-rd-search="{&quot;output&quot;:&quot;.navbar-search-results&quot;,&quot;mode&quot;:&quot;live&quot;,&quot;liveResults&quot;:3,&quot;template&quot;:&quot;<h5 class=\&quot;search-title\&quot;><a target=\&quot;_top\&quot; href=\&quot;#{href}\&quot; class=\&quot;search-link\&quot;>#{title}</a></h5><p>...#{token}...</p>&quot;}">
+                      <input class="navbar-search-input" type="text" placeholder="Enter search terms..."
+                        autocomplete="off" name="s">
+                      <button class="navbar-search-btn custom-font-search novi-icon"></button>
+                      <button class="navbar-search-close search-switch custom-font-close novi-icon" type="button"
+                        data-multi-switch="{&quot;targets&quot;:&quot;.rd-navbar&quot;,&quot;scope&quot;:&quot;.rd-navbar&quot;,&quot;class&quot;:&quot;navbar-search-active&quot;,&quot;isolate&quot;:&quot;[data-multi-switch]:not(.search-switch)&quot;}"></button>
+                    </form>
                   </div>
-                  <div class="navbar-search-results">No results</div>
-                  <button class="navbar-button search-switch custom-font-search" data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","class":"navbar-search-active","isolate":"[data-multi-switch]:not(.search-switch)"}'></button>
                 </div>
+                <div class="navbar-search-results">No results</div>
+                
               </div>
             </div>
           </div>
-        </nav>
+        </div>
+      </nav>
       </header>
       <section class="section breadcrumb-section">
         <div class="container">
@@ -186,12 +205,6 @@
                 </ul>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="footer-bottom bg-700 context-dark text-center">
-          <div class="container">
-                  <!-- Copyright-->
-                  <p class="rights"><span>&copy; 2021&nbsp;</span><span>Teachzy</span><span>. All rights reserved.&nbsp;</span><a class="link link-inherit" href="privacy-policy.html">Privacy Policy</a></p>
           </div>
         </div>
       </footer>
