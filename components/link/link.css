@@ -1,0 +1,15 @@
+/**
+ * Link
+ */
+.link {
+	position: relative;
+	display: inline-block;
+}
+
+.link-inherit {
+	color: inherit;
+}
+
+.link-inherit:hover {
+	color: #F5922A;
+}
