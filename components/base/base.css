@@ -5765,3 +5765,12 @@ button.bg-900:focus {
 .text-strike {
 	text-decoration: line-through;
 }
+
+
+.logo_text{
+	text-align: center;
+	font-size: 22px;
+	padding-top: 8px;
+	line-height: 1;
+	color: #fff;
+}
